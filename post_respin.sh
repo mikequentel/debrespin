@@ -7,6 +7,8 @@ WKDIR=/home/mikequentel/mq/mq_wkspc/debrespin
 
 mkdir -p $WKDIR/live_boot/image/{live,isolinux}
 
+sudo cp -f $WKDIR/.bashrc $WKDIR/live_boot/chroot/etc/skel/
+
 (cd $WKDIR/live_boot && \
   sudo mksquashfs chroot image/live/filesystem.squashfs -e boot
 )

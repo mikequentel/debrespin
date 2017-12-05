@@ -58,7 +58,7 @@ apt-get install --yes --force-yes \
   docker-compose \
   firefox-esr \
   gimp \
-  gnome \
+  gnome-core \
   gnome-builder \
   golang-1.8 \
   inxi \
