@@ -60,7 +60,7 @@ EOF
 
 genisoimage \
   -rational-rock \
-  -volid "Debian Respin Live" \
+  -volid "debian-respin-live" \
   -cache-inodes \
   -joliet \
   -hfs \

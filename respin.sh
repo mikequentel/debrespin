@@ -61,6 +61,7 @@ apt-get install --yes --force-yes \
   gnome-core \
   gnome-builder \
   golang-1.8 \
+  gsmartcontrol \
   inxi \
   ksh \
   libcloog-isl-dev \
